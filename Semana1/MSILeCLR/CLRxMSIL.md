@@ -1,0 +1,3 @@
+## :book: Resumo de CLR e MSIL :book:
+
+Basicamente, cada linguagem dentro do ambiente .NET possui seu próprio compilador, que por sua vez, traduz o código compilado para o MSIL (Microsoft Intermediate Language). Esse, por sua vez, passa todos os códigos, mesmo que de linguagens diferentes, dentro do .NET, para o CLR (Common Language Runtime) ou JIT compiler, que será comum a toda a plataforma do .NET.
