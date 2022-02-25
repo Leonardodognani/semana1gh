@@ -28,6 +28,10 @@ namespace semana1gh
             é iniciado.
 */
 
+/*
+            O que é uma classe abstrata e o que é uma interface?
+            quando devemos usar um ou outro?
+*/
         }
     }
 }
