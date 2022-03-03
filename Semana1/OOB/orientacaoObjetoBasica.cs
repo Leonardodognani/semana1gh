@@ -29,8 +29,28 @@ namespace semana1gh
 */
 
 /*
-            O que é uma classe abstrata e o que é uma interface?
-            quando devemos usar um ou outro?
+            Classe abstrata
+            É um tipo de classe que somente pode ser herdada e não instanciada. De certa forma, pode-­se dizer que este tipo de classe é uma 
+            classe conceitual que pode definir funcionalidades para que as suas subclasses possam implementá-­las. O conjunto de métodos na 
+            classe abstrata é obrigatoriedade, assim como a implementação nas suas subclasses. Em uma classe abstrata, os métodos declarados 
+            podem ser abstratos ou não, e suas implementações devem ser obrigatórias na subclasse.
+
+            Interface
+            Define as operações que um objeto será obrigado a implementar. É importante lembrar que uma interface nunca contém implementação, 
+            ou seja, numa interface não se pode definir campos, pois os mesmos são uma implementação de um atributo objeto. A interface também 
+            não permite construtores, pois num construtor temos as instruções usadas para inicializar campos. Para podermos usar uma interface, 
+            devemos criar uma classe ou estrutura e herdar da interface. Com isso, é obrigatório implementar todos os métodos da interface.
+
+            Conclusão
+            Uma classe abstrata pode conter métodos completos ou incompletos. Uma Interface pode conter apenas a assinatura de um método, mas 
+            nenhum corpo ou implementação. Portanto, em uma classe abstrata, pode-­se implementar métodos, mas em uma Interface, não. Uma classe 
+            abstrata pode conter campos, construtores, ou destrutores e aplicar propriedades. Uma interface não pode conter campos, construtores, 
+            ou destrutores. Pode possuir apenas a propriedade da assinatura, mas não a implementação. Uma classe abstrata não suporta múltiplas 
+            herança. Assim, uma classe pode implementar várias interfaces, mas apenas herdar de uma classe abstrata. Uma classe que implementa 
+            uma interface tem obrigatoriamente que implementar todos os métodos desta, mas o mesmo não é exigido no caso de uma classe abstrata. 
+            As classes abstratas são mais rápidas que as interfaces.
+            
+            (quando devemos usar um ou outro?)
 */
         }
     }
